@@ -52,9 +52,12 @@
 // ****************
 #define EGB_UNI ["CUP_U_B_GER_Tropentarn_2","CUP_U_B_GER_Tropentarn_1","CUP_U_B_GER_Tropentarn_3","CUP_U_B_GER_Tropentarn_5","CUP_U_B_GER_Tropentarn_4"]
 #define EGB_GOOGLES ["CUP_G_PMC_Facewrap_Tan_Glasses_Ember","CUP_PMC_Facewrap_Tan","CUP_G_ESS_KHK_Facewrap_Tan","CUP_RUS_Balaclava_tan","CUP_G_ESS_KHK_Scarf_Face_Tan"]
+#define EGB_w_r ["CUP_arifle_G36KA3","CUP_arifle_G36KA3_camo","CUP_arifle_G36KA3_grip_camo","CUP_arifle_G36KA3_grip","CUP_arifle_G36K_KSK_VFG_camo","CUP_arifle_G36K_KSK_VFG"]
+#define EGB_a_r ["CUP_30Rnd_556x45_G36_wdl","CUP_30Rnd_556x45_G36_wdl","CUP_30Rnd_556x45_G36_wdl","CUP_30Rnd_556x45_G36_wdl","CUP_30Rnd_556x45_G36_wdl","CUP_30Rnd_556x45_G36_wdl"]
+
 kit_egb_pl = [
 	["<EQUIPEMENT >>  ",EGB_UNI,"CUP_V_B_GER_PVest_Trop_RFL","tf_rt1523g_big_bwmod_tropen","CUP_H_OpsCore_Covered_Tropen_SF",EGB_GOOGLES],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_G36KA3","CUP_30Rnd_TE1_Red_Tracer_556x45_G36_wdl",["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_G33_HWS_COYOTE",""]],
+	["<PRIMARY WEAPON >>  ",EGB_w_r,EGB_a_r,["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_G33_HWS_COYOTE",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_P07_F","16Rnd_9x21_Mag",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -64,7 +67,7 @@ kit_egb_pl = [
 ];
 kit_egb_sl = [
 	["<EQUIPEMENT >>  ",EGB_UNI,"CUP_V_B_GER_PVest_Trop_RFL","tf_rt1523g_big_bwmod_tropen","CUP_H_OpsCore_Covered_Tropen_SF",EGB_GOOGLES],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_G36KA3","CUP_30Rnd_TE1_Red_Tracer_556x45_G36_wdl",["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_G33_HWS_COYOTE_DWN",""]],
+	["<PRIMARY WEAPON >>  ",EGB_w_r,EGB_a_r,["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_G33_HWS_COYOTE_DWN",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_P07_F","16Rnd_9x21_Mag",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -74,7 +77,7 @@ kit_egb_sl = [
 ];
 kit_egb_ftl = [
 	["<EQUIPEMENT >>  ",EGB_UNI,"CUP_V_B_GER_PVest_Trop_TL","","CUP_H_OpsCore_Covered_Tropen_SF",EGB_GOOGLES],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_G36KA3","CUP_30Rnd_556x45_G36_wdl",["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_HensoldtZO_low_RDS_desert",""]],
+	["<PRIMARY WEAPON >>  ",EGB_w_r,EGB_a_r,["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_HensoldtZO_low_RDS_desert",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_P07_F","16Rnd_9x21_Mag",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -94,7 +97,7 @@ kit_egb_mg = [
 ];
 kit_egb_at = [
 	["<EQUIPEMENT >>  ",EGB_UNI,"CUP_V_B_GER_PVest_Trop_RFL_LT","CUP_B_GER_Pack_Tropentarn","CUP_H_OpsCore_Covered_Tropen_SF",EGB_GOOGLES],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_G36KA3","CUP_30Rnd_556x45_G36_wdl",["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_HensoldtZO_low_RDS_desert_PIP",""]],
+	["<PRIMARY WEAPON >>  ",EGB_w_r,EGB_a_r,["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_HensoldtZO_low_RDS_desert_PIP",""]],
 	["<LAUNCHER WEAPON >>  ","CUP_launch_BF3_Loaded","CUP_PTFHE_M",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_P07_F","16Rnd_9x21_Mag",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -114,7 +117,7 @@ kit_egb_gr = [
 ];
 kit_egb_r = [
 	["<EQUIPEMENT >>  ",EGB_UNI,"CUP_V_B_GER_PVest_Trop_RFL_LT","CUP_B_GER_Pack_Tropentarn","CUP_H_OpsCore_Covered_Tropen_SF",EGB_GOOGLES],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_G36KA3","CUP_30Rnd_556x45_G36_wdl",["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_G33_HWS_COYOTE",""]],
+	["<PRIMARY WEAPON >>  ",EGB_w_r,EGB_a_r,["CUP_muzzle_snds_G36_black","CUP_acc_LLM01_L","CUP_optic_G33_HWS_COYOTE",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_P07_F","16Rnd_9x21_Mag",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -193,7 +196,7 @@ kit_syr_ar = [
 ];
 kit_syr_gr = [
 	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_M81","CUP_V_O_SLA_Carrier_Belt02","CUP_B_SLA_Medicbag","CUP_H_PASGTv2_OD",""],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM_GL_Early","CUP_40Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",["","","",""]],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_AKM_GL_Early","CUP_30Rnd_762x39_AK47_bakelite_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_SYR],
