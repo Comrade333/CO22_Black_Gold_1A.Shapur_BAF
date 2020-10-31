@@ -8,6 +8,6 @@
 
 | Reviewer | Result |
 | ------------ | ------------- |
-|  |  |
+| Comrade | APPROVED |
 |  |  |
 
